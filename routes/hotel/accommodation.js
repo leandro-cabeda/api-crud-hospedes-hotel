@@ -1,0 +1,1 @@
+module.exports = app => app.post('/hotel', app.controllers.hotel.accommodation);

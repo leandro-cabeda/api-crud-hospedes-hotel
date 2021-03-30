@@ -1,0 +1,31 @@
+{
+    "name": "crud_backend",
+    "version": "1.0.0",
+    "description": "Desafio Back-End Api Crud Hospedes no Hotel",
+    "main": "index.js",
+    "private": true,
+    "bin": "index.js",
+    "keywords": [],
+    "scripts": {
+        "start": "node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Leandro Cabeda Rigo",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "consign": "^0.1.6",
+        "cors": "^2.8.5",
+        "cpf-cnpj-validator": "^1.0.3",
+        "express": "4.17.1",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.28",
+        "pg": "^8.3.0",
+        "pg-hstore": "^2.3.3",
+        "sequelize": "^6.3.3",
+        "validar-telefone": "^0.1.0"
+    }
+}

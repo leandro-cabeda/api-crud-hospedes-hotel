@@ -1,0 +1,1 @@
+module.exports = app => app.post('/guest', app.controllers.guest.createGuest);

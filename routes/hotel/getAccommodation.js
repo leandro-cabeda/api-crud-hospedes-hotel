@@ -1,0 +1,1 @@
+module.exports = app => app.get('/hotel', app.controllers.hotel.getAccommodation);

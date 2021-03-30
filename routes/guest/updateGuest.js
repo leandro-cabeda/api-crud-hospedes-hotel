@@ -1,0 +1,1 @@
+module.exports = app => app.put('/guest/:id', app.controllers.guest.updateGuest);
